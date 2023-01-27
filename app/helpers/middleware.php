@@ -8,7 +8,7 @@ function usersOnly($redirect = '/index.php')
         header('location: ' .  $redirect);
         exit(0);
  }
-}
+} 
 
 function adminOnly($redirect = './index.php')
 {
